@@ -1,0 +1,1693 @@
+{
+  "minifier": {
+    "name": "standard-minifier-js",
+    "version": "2.8.1"
+  },
+  "totalMinifiedBytes": 2680945,
+  "totalMinifiedGzipBytes": 567462,
+  "minifiedBytesByPackage": {
+    "packages/meteor.js": 10123,
+    "packages/meteor-base.js": 31,
+    "packages/modules-runtime.js": 5179,
+    "packages/modules.js": [
+      11608,
+      {
+        "node_modules": {
+          "meteor": {
+            "modules": {
+              "client.js": 126,
+              "css.js": 263,
+              "install-packages.js": 4407,
+              "process.js": 349,
+              "reify.js": 83,
+              "stubs.js": 99,
+              "node_modules": {
+                "@meteorjs": {
+                  "reify": {
+                    "lib": {
+                      "runtime": {
+                        "index.js": 954,
+                        "utils.js": 1309,
+                        "entry.js": 3503
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/modern-browsers.js": 35,
+    "packages/babel-compiler.js": 34,
+    "packages/react-fast-refresh.js": [
+      2931,
+      {
+        "node_modules": {
+          "meteor": {
+            "react-fast-refresh": {
+              "client.js": 332,
+              "client-runtime.js": 1364,
+              "node_modules": {
+                "react-refresh": {
+                  "runtime.js": 92,
+                  "cjs": {
+                    "react-refresh-runtime.production.min.js": 366,
+                    "react-refresh-runtime.development.js": 282
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/ecmascript.js": 30,
+    "packages/standard-minifier-js.js": 40,
+    "packages/jquery.js": [
+      749,
+      {
+        "node_modules": {
+          "meteor": {
+            "jquery": {
+              "main.js": 451
+            }
+          }
+        }
+      }
+    ],
+    "packages/ecmascript-runtime.js": 38,
+    "packages/babel-runtime.js": 33,
+    "packages/promise.js": [
+      1339,
+      {
+        "node_modules": {
+          "meteor": {
+            "promise": {
+              "modern.js": 25,
+              "client.js": 73,
+              "extensions.js": 403,
+              "node_modules": {
+                "meteor-promise": {
+                  "package.json": 121,
+                  "promise_client.js": 268
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/fetch.js": [
+      410,
+      {
+        "node_modules": {
+          "meteor": {
+            "fetch": {
+              "modern.js": 94
+            }
+          }
+        }
+      }
+    ],
+    "packages/dynamic-import.js": [
+      12914,
+      {
+        "node_modules": {
+          "meteor": {
+            "dynamic-import": {
+              "client.js": 1923,
+              "cache.js": 1952,
+              "common.js": 62,
+              "dynamic-versions.js": 8574
+            }
+          }
+        }
+      }
+    ],
+    "packages/es5-shim.js": 28,
+    "packages/ecmascript-runtime-client.js": [
+      22393,
+      {
+        "node_modules": {
+          "meteor": {
+            "ecmascript-runtime-client": {
+              "modern.js": 766,
+              "node_modules": {
+                "core-js": {
+                  "modules": {
+                    "es.object.get-own-property-descriptors.js": 414,
+                    "es.object.is.js": 108,
+                    "es.function.name.js": 274,
+                    "es.number.is-finite.js": 120,
+                    "es.number.is-nan.js": 107,
+                    "es.array.flat.js": 404,
+                    "es.array.flat-map.js": 401,
+                    "es.object.from-entries.js": 232,
+                    "es.string.pad-start.js": 256,
+                    "es.string.pad-end.js": 252,
+                    "es.string.trim-start.js": 260,
+                    "es.string.trim-end.js": 253,
+                    "es.symbol.async-iterator.js": 80
+                  },
+                  "internals": {
+                    "export.js": 612,
+                    "global.js": 264,
+                    "object-get-own-property-descriptor.js": 428,
+                    "descriptors.js": 144,
+                    "fails.js": 76,
+                    "object-property-is-enumerable.js": 178,
+                    "create-property-descriptor.js": 113,
+                    "to-indexed-object.js": 140,
+                    "indexed-object.js": 225,
+                    "classof-raw.js": 88,
+                    "require-object-coercible.js": 104,
+                    "to-primitive.js": 354,
+                    "is-object.js": 96,
+                    "has.js": 136,
+                    "to-object.js": 110,
+                    "ie8-dom-define.js": 231,
+                    "document-create-element.js": 173,
+                    "create-non-enumerable-property.js": 229,
+                    "object-define-property.js": 359,
+                    "an-object.js": 140,
+                    "redefine.js": 684,
+                    "set-global.js": 163,
+                    "inspect-source.js": 185,
+                    "shared-store.js": 131,
+                    "internal-state.js": 968,
+                    "native-weak-map.js": 153,
+                    "shared-key.js": 133,
+                    "shared.js": 259,
+                    "is-pure.js": 31,
+                    "uid.js": 131,
+                    "hidden-keys.js": 31,
+                    "copy-constructor-properties.js": 279,
+                    "own-keys.js": 284,
+                    "get-built-in.js": 222,
+                    "path.js": 61,
+                    "object-get-own-property-names.js": 187,
+                    "object-keys-internal.js": 306,
+                    "array-includes.js": 363,
+                    "to-length.js": 125,
+                    "to-integer.js": 104,
+                    "to-absolute-index.js": 138,
+                    "enum-bug-keys.js": 138,
+                    "object-get-own-property-symbols.js": 49,
+                    "is-forced.js": 279,
+                    "create-property.js": 226,
+                    "same-value.js": 96,
+                    "number-is-finite.js": 133,
+                    "flatten-into-array.js": 399,
+                    "is-array.js": 114,
+                    "function-bind-context.js": 358,
+                    "a-function.js": 122,
+                    "array-species-create.js": 320,
+                    "well-known-symbol.js": 359,
+                    "native-symbol.js": 232,
+                    "engine-v8-version.js": 266,
+                    "engine-user-agent.js": 96,
+                    "use-symbol-as-uid.js": 116,
+                    "iterate.js": 885,
+                    "is-array-iterator-method.js": 190,
+                    "iterators.js": 31,
+                    "get-iterator-method.js": 204,
+                    "classof.js": 435,
+                    "to-string-tag-support.js": 124,
+                    "iterator-close.js": 130,
+                    "string-pad.js": 378,
+                    "string-repeat.js": 280,
+                    "string-pad-webkit-bug.js": 145,
+                    "string-trim.js": 305,
+                    "whitespaces.js": 107,
+                    "string-trim-forced.js": 181,
+                    "define-well-known-symbol.js": 245,
+                    "well-known-symbol-wrapped.js": 64
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/tracker.js": [
+      4826,
+      {
+        "node_modules": {
+          "meteor": {
+            "tracker": {
+              "tracker.js": 4493
+            }
+          }
+        }
+      }
+    ],
+    "packages/base64.js": [
+      1808,
+      {
+        "node_modules": {
+          "meteor": {
+            "base64": {
+              "base64.js": 1488
+            }
+          }
+        }
+      }
+    ],
+    "packages/ejson.js": [
+      6775,
+      {
+        "node_modules": {
+          "meteor": {
+            "ejson": {
+              "ejson.js": 4765,
+              "stringify.js": 911,
+              "utils.js": 733
+            }
+          }
+        }
+      }
+    ],
+    "packages/check.js": [
+      6125,
+      {
+        "node_modules": {
+          "meteor": {
+            "check": {
+              "match.js": 5438,
+              "isPlainObject.js": 321
+            }
+          }
+        }
+      }
+    ],
+    "packages/random.js": [
+      3682,
+      {
+        "node_modules": {
+          "meteor": {
+            "random": {
+              "main_client.js": 305,
+              "AbstractRandomGenerator.js": 649,
+              "AleaRandomGenerator.js": 987,
+              "BrowserRandomGenerator.js": 232,
+              "createAleaGenerator.js": 669,
+              "createRandom.js": 378
+            }
+          }
+        }
+      }
+    ],
+    "packages/mongo-id.js": [
+      1693,
+      {
+        "node_modules": {
+          "meteor": {
+            "mongo-id": {
+              "id.js": 1324
+            }
+          }
+        }
+      }
+    ],
+    "packages/diff-sequence.js": [
+      2872,
+      {
+        "node_modules": {
+          "meteor": {
+            "diff-sequence": {
+              "diff.js": 2505
+            }
+          }
+        }
+      }
+    ],
+    "packages/observe-sequence.js": [
+      4262,
+      {
+        "node_modules": {
+          "meteor": {
+            "observe-sequence": {
+              "observe_sequence.js": 3736
+            }
+          }
+        }
+      }
+    ],
+    "packages/reactive-var.js": 818,
+    "packages/ordered-dict.js": [
+      3032,
+      {
+        "node_modules": {
+          "meteor": {
+            "ordered-dict": {
+              "ordered_dict.js": 2675
+            }
+          }
+        }
+      }
+    ],
+    "packages/htmljs.js": [
+      11754,
+      {
+        "node_modules": {
+          "meteor": {
+            "htmljs": {
+              "preamble.js": 1179,
+              "html.js": 4660,
+              "visitors.js": 5567
+            }
+          }
+        }
+      }
+    ],
+    "packages/blaze.js": [
+      50653,
+      {
+        "node_modules": {
+          "meteor": {
+            "blaze": {
+              "preamble.js": 523,
+              "dombackend.js": 1760,
+              "domrange.js": 6248,
+              "events.js": 1991,
+              "attrs.js": 4048,
+              "materializer.js": 2031,
+              "exceptions.js": 491,
+              "view.js": 10128,
+              "builtins.js": 4226,
+              "lookup.js": 3202,
+              "template.js": 5519,
+              "backcompat.js": 246,
+              "node_modules": {
+                "lodash.has": {
+                  "package.json": 64,
+                  "index.js": 5016
+                },
+                "lodash.isobject": {
+                  "package.json": 69,
+                  "index.js": 99
+                },
+                "lodash.isfunction": {
+                  "package.json": 71,
+                  "index.js": 774
+                },
+                "lodash.isempty": {
+                  "package.json": 68,
+                  "index.js": 2650
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/mquandalle_jade.js": 35,
+    "packages/coffeescript.js": 32,
+    "packages/underscore.js": 14437,
+    "packages/aldeed_simple-schema.js": 34851,
+    "packages/geojson-utils.js": [
+      5191,
+      {
+        "node_modules": {
+          "meteor": {
+            "geojson-utils": {
+              "main.js": 50,
+              "geojson-utils.js": 4805
+            }
+          }
+        }
+      }
+    ],
+    "packages/id-map.js": [
+      1156,
+      {
+        "node_modules": {
+          "meteor": {
+            "id-map": {
+              "id-map.js": 813
+            }
+          }
+        }
+      }
+    ],
+    "packages/minimongo.js": [
+      44692,
+      {
+        "node_modules": {
+          "meteor": {
+            "minimongo": {
+              "minimongo_client.js": 50,
+              "common.js": 12228,
+              "constants.js": 333,
+              "cursor.js": 4965,
+              "local_collection.js": 20168,
+              "matcher.js": 2684,
+              "minimongo_common.js": 210,
+              "observe_handle.js": 54,
+              "sorter.js": 3173
+            }
+          }
+        }
+      }
+    ],
+    "packages/retry.js": [
+      1048,
+      {
+        "node_modules": {
+          "meteor": {
+            "retry": {
+              "retry.js": 710
+            }
+          }
+        }
+      }
+    ],
+    "packages/callback-hook.js": [
+      1874,
+      {
+        "node_modules": {
+          "meteor": {
+            "callback-hook": {
+              "hook.js": 1533
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-common.js": [
+      4583,
+      {
+        "node_modules": {
+          "meteor": {
+            "ddp-common": {
+              "namespace.js": 18,
+              "heartbeat.js": 1293,
+              "utils.js": 1377,
+              "method_invocation.js": 487,
+              "random_stream.js": 628
+            }
+          }
+        }
+      }
+    ],
+    "packages/reload.js": [
+      2692,
+      {
+        "node_modules": {
+          "meteor": {
+            "reload": {
+              "reload.js": 2372
+            }
+          }
+        }
+      }
+    ],
+    "packages/socket-stream-client.js": [
+      61252,
+      {
+        "node_modules": {
+          "meteor": {
+            "socket-stream-client": {
+              "browser.js": 2920,
+              "common.js": 2468,
+              "sockjs-1.6.1-min-.js": 54754,
+              "urls.js": 747
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-client.js": [
+      24291,
+      {
+        "node_modules": {
+          "meteor": {
+            "ddp-client": {
+              "client": {
+                "client.js": 136,
+                "client_convenience.js": 852
+              },
+              "common": {
+                "MethodInvoker.js": 1146,
+                "livedata_connection.js": 20486,
+                "namespace.js": 875
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp.js": 78,
+    "packages/ddp-server.js": 30,
+    "packages/allow-deny.js": [
+      5828,
+      {
+        "node_modules": {
+          "meteor": {
+            "allow-deny": {
+              "allow-deny.js": 5327
+            }
+          }
+        }
+      }
+    ],
+    "packages/typescript.js": 30,
+    "packages/logging.js": [
+      3942,
+      {
+        "node_modules": {
+          "meteor": {
+            "logging": {
+              "logging.js": 3462,
+              "logging_browser.js": 53
+            }
+          }
+        }
+      }
+    ],
+    "packages/mongo.js": [
+      12067,
+      {
+        "node_modules": {
+          "meteor": {
+            "mongo": {
+              "local_collection_driver.js": 362,
+              "collection.js": 10561,
+              "mongo_utils.js": 346
+            }
+          }
+        }
+      }
+    ],
+    "packages/raix_eventemitter.js": 2212,
+    "packages/aldeed_collection2-core.js": 6992,
+    "packages/aldeed_schema-index.js": [
+      1496,
+      {
+        "node_modules": {
+          "meteor": {
+            "aldeed:schema-index": {
+              "lib": {
+                "indexing.js": 843
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/aldeed_schema-deny.js": 1085,
+    "packages/aldeed_collection2.js": 38,
+    "packages/cottz_publish-relations.js": [
+      1050,
+      {
+        "node_modules": {
+          "meteor": {
+            "cottz:publish-relations": {
+              "lib": {
+                "client": {
+                  "publish_relations.js": 547
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/dburles_collection-helpers.js": 557,
+    "packages/idmontie_migrations.js": 39,
+    "packages/easysearch_core.js": [
+      11711,
+      {
+        "node_modules": {
+          "meteor": {
+            "easysearch:core": {
+              "lib": {
+                "core": {
+                  "index.js": 1292,
+                  "engine.js": 640,
+                  "reactive-engine.js": 1079,
+                  "cursor.js": 639,
+                  "search-collection.js": 3386
+                },
+                "engines": {
+                  "mongo-db.js": 1119,
+                  "minimongo.js": 843,
+                  "mongo-text-index.js": 699
+                },
+                "globals.js": 285,
+                "main.js": 516
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/reactive-dict.js": [
+      3891,
+      {
+        "node_modules": {
+          "meteor": {
+            "reactive-dict": {
+              "migration.js": 778,
+              "reactive-dict.js": 2665
+            }
+          }
+        }
+      }
+    ],
+    "packages/spacebars.js": 3179,
+    "packages/templating-compiler.js": 39,
+    "packages/templating-runtime.js": [
+      9987,
+      {
+        "node_modules": {
+          "meteor": {
+            "templating-runtime": {
+              "templating.js": 2238,
+              "template.dynamic.js": 1401,
+              "dynamic.js": 560,
+              "node_modules": {
+                "lodash.has": {
+                  "package.json": 64,
+                  "index.js": 5016
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/templating.js": 103,
+    "packages/peerlibrary_assert.js": 4845,
+    "packages/peerlibrary_reactive-field.js": [
+      1208,
+      {
+        "node_modules": {
+          "meteor": {
+            "peerlibrary:reactive-field": {
+              "lib.js": 711
+            }
+          }
+        }
+      }
+    ],
+    "packages/peerlibrary_computed-field.js": [
+      1709,
+      {
+        "node_modules": {
+          "meteor": {
+            "peerlibrary:computed-field": {
+              "lib.js": 1205
+            }
+          }
+        }
+      }
+    ],
+    "packages/peerlibrary_base-component.js": 7095,
+    "packages/peerlibrary_data-lookup.js": [
+      928,
+      {
+        "node_modules": {
+          "meteor": {
+            "peerlibrary:data-lookup": {
+              "lib.coffee": 405
+            }
+          }
+        }
+      }
+    ],
+    "packages/peerlibrary_blaze-components.js": 33354,
+    "packages/easysearch_components.js": [
+      16567,
+      {
+        "node_modules": {
+          "meteor": {
+            "easysearch:components": {
+              "lib": {
+                "base.js": 1431,
+                "single-index.js": 262,
+                "component-methods.js": 1866,
+                "core.js": 1411,
+                "input": {
+                  "template.input.js": 219,
+                  "input.js": 789
+                },
+                "field-input": {
+                  "template.field-input.js": 234,
+                  "field-input.js": 558
+                },
+                "each": {
+                  "template.each.js": 469,
+                  "each.js": 339
+                },
+                "if-input-empty": {
+                  "template.if-input-empty.js": 629,
+                  "if-input-empty.js": 227
+                },
+                "if-no-results": {
+                  "template.if-no-results.js": 625,
+                  "if-no-results.js": 222
+                },
+                "if-searching": {
+                  "template.if-searching.js": 625,
+                  "if-searching.js": 221
+                },
+                "load-more": {
+                  "template.load-more.js": 407,
+                  "load-more.js": 479
+                },
+                "pagination": {
+                  "template.pagination.js": 1005,
+                  "pagination.js": 1041
+                },
+                "main.js": 511
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/easy_search.js": [
+      1309,
+      {
+        "node_modules": {
+          "meteor": {
+            "easy:search": {
+              "main.js": 930
+            }
+          }
+        }
+      }
+    ],
+    "packages/mquandalle_collection-mutations.js": [
+      692,
+      {
+        "node_modules": {
+          "meteor": {
+            "mquandalle:collection-mutations": {
+              "mutations.js": 261
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-rate-limiter.js": 36,
+    "packages/localstorage.js": 837,
+    "packages/url.js": [
+      1194,
+      {
+        "node_modules": {
+          "meteor": {
+            "url": {
+              "modern.js": 110,
+              "bc": {
+                "url_client.js": 172,
+                "url_common.js": 569
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/accounts-base.js": [
+      13575,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-base": {
+              "client_main.js": 237,
+              "accounts_client.js": 7938,
+              "accounts_common.js": 4756
+            }
+          }
+        }
+      }
+    ],
+    "packages/sha.js": 2495,
+    "packages/accounts-password.js": [
+      2654,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-password": {
+              "password_client.js": 2193
+            }
+          }
+        }
+      }
+    ],
+    "packages/useraccounts_core.js": [
+      47886,
+      {
+        "node_modules": {
+          "meteor": {
+            "useraccounts:core": {
+              "lib": {
+                "utils.js": 230,
+                "field.js": 3375,
+                "core.js": 11259,
+                "client.js": 6575,
+                "templates_helpers": {
+                  "at_error.js": 371,
+                  "at_form.js": 1627,
+                  "at_input.js": 1922,
+                  "at_nav_button.js": 269,
+                  "at_oauth.js": 92,
+                  "at_pwd_form.js": 4298,
+                  "at_pwd_form_btn.js": 305,
+                  "at_pwd_link.js": 438,
+                  "at_reCaptcha.js": 447,
+                  "at_resend_verification_email_link.js": 596,
+                  "at_result.js": 121,
+                  "at_sep.js": 91,
+                  "at_signin_link.js": 441,
+                  "at_signup_link.js": 441,
+                  "at_social.js": 1846,
+                  "at_terms_link.js": 591,
+                  "at_title.js": 145,
+                  "at_message.js": 124,
+                  "template.ensure_signed_in.js": 737,
+                  "ensure_signed_in.js": 218
+                },
+                "methods.js": 280,
+                "T9n.js": 148
+              },
+              "node_modules": {
+                "meteor-accounts-t9n": {
+                  "build": {
+                    "en.js": 4733,
+                    "t9n.js": 2779
+                  },
+                  "package.json": 93
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/kadira_flow-router.js": [
+      25942,
+      {
+        "node_modules": {
+          "meteor": {
+            "kadira:flow-router": {
+              "client": {
+                "modules.js": 36,
+                "triggers.js": 1021,
+                "router.js": 6778,
+                "group.js": 1064,
+                "route.js": 1809,
+                "_init.js": 98
+              },
+              "lib": {
+                "router.js": 167
+              },
+              "node_modules": {
+                "page": {
+                  "package.json": 58,
+                  "index.js": 4648
+                },
+                "path-to-regexp": {
+                  "package.json": 68,
+                  "index.js": 2767
+                },
+                "isarray": {
+                  "package.json": 77,
+                  "index.js": 114
+                },
+                "qs": {
+                  "package.json": 76,
+                  "lib": {
+                    "index.js": 88,
+                    "stringify.js": 1609,
+                    "utils.js": 1840,
+                    "parse.js": 2423
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/kadira_blaze-layout.js": 2064,
+    "packages/useraccounts_flow-routing.js": [
+      8301,
+      {
+        "node_modules": {
+          "meteor": {
+            "useraccounts:flow-routing": {
+              "lib": {
+                "core.js": 4476,
+                "client": {
+                  "client.js": 2675,
+                  "templates_helpers": {
+                    "at_input.js": 194
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/useraccounts_unstyled.js": 16430,
+    "packages/simple_rest-accounts-password.js": 49,
+    "packages/yasaricli_slugify.js": 4084,
+    "packages/wekan-ldap.js": [
+      934,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-ldap": {
+              "client": {
+                "loginHelper.js": 347
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/wekan-accounts-cas.js": 1807,
+    "packages/http.js": [
+      3504,
+      {
+        "node_modules": {
+          "meteor": {
+            "http": {
+              "httpcall_client.js": 2150,
+              "httpcall_common.js": 932
+            }
+          }
+        }
+      }
+    ],
+    "packages/wekan-accounts-sandstorm.js": 2069,
+    "packages/wekan-accounts-lockout.js": [
+      10895,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-accounts-lockout": {
+              "accounts-lockout.js": 154,
+              "src": {
+                "accountsLockout.js": 450,
+                "accountsLockoutCollection.js": 132,
+                "knownUser.js": 4554,
+                "unknownUser.js": 5096
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/oauth.js": [
+      4080,
+      {
+        "node_modules": {
+          "meteor": {
+            "oauth": {
+              "oauth_client.js": 2030,
+              "oauth_browser.js": 837,
+              "oauth_common.js": 613
+            }
+          }
+        }
+      }
+    ],
+    "packages/service-configuration.js": [
+      967,
+      {
+        "node_modules": {
+          "meteor": {
+            "service-configuration": {
+              "service_configuration_common.js": 490
+            }
+          }
+        }
+      }
+    ],
+    "packages/oauth2.js": 26,
+    "packages/wekan-oidc.js": [
+      2679,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-oidc": {
+              "template.oidc_configure.js": 435,
+              "oidc_configure.js": 529,
+              "oidc_client.js": 913
+            }
+          }
+        }
+      }
+    ],
+    "packages/accounts-oauth.js": [
+      2896,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-oauth": {
+              "oauth_common.js": 1489,
+              "oauth_client.js": 932
+            }
+          }
+        }
+      }
+    ],
+    "packages/wekan-accounts-oidc.js": 505,
+    "packages/session.js": [
+      519,
+      {
+        "node_modules": {
+          "meteor": {
+            "session": {
+              "session.js": 131
+            }
+          }
+        }
+      }
+    ],
+    "packages/zimme_active-route.js": 3011,
+    "packages/arillo_flow-router-helpers.js": 1987,
+    "packages/audit-argument-checks.js": 41,
+    "packages/kadira_dochead.js": [
+      2914,
+      {
+        "node_modules": {
+          "meteor": {
+            "kadira:dochead": {
+              "main.js": 33,
+              "lib": {
+                "both.js": 1267,
+                "flow_router.js": 165
+              },
+              "node_modules": {
+                "load-script": {
+                  "package.json": 65,
+                  "index.js": 787
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/mquandalle_autofocus.js": 656,
+    "packages/ongoworks_speakingurl.js": 11600,
+    "packages/ui.js": 137,
+    "packages/deps.js": 111,
+    "packages/raix_handlebar-helpers.js": 3131,
+    "packages/wekan-bootstrap-datepicker.js": 78173,
+    "packages/ostrio_cstorage.js": [
+      5739,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:cstorage": {
+              "client-storage.js": 1461,
+              "browser-storage.js": 1313,
+              "cookies-storage.js": 1773,
+              "helpers.js": 234,
+              "js-storage.js": 531
+            }
+          }
+        }
+      }
+    ],
+    "packages/ostrio_i18n.js": [
+      5595,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:i18n": {
+              "i18n.js": 5193
+            }
+          }
+        }
+      }
+    ],
+    "packages/mousetrap_mousetrap.js": 4307,
+    "packages/mquandalle_jquery-textcomplete.js": 17257,
+    "packages/mquandalle_mousetrap-bindglobal.js": 483,
+    "packages/templates_tabs.js": 5371,
+    "packages/meteor-autosize.js": 3616,
+    "packages/shell-server.js": 32,
+    "packages/email.js": 25,
+    "packages/msavin_usercache.js": 36,
+    "packages/meteorhacks_subs-manager.js": 3149,
+    "packages/meteorhacks_aggregate.js": 161,
+    "packages/wekan-markdown.js": [
+      1772,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-markdown": {
+              "src": {
+                "template-integration.js": 1229
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/konecty_mongo-counter.js": 41,
+    "packages/percolate_synced-cron.js": 41,
+    "packages/ostrio_cookies.js": [
+      8977,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:cookies": {
+              "cookies.js": 8620
+            }
+          }
+        }
+      }
+    ],
+    "packages/ostrio_files.js": [
+      35928,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:files": {
+              "client.js": 5690,
+              "core.js": 3338,
+              "cursor.js": 3289,
+              "lib.js": 3382,
+              "upload.js": 16668,
+              "node_modules": {
+                "eventemitter3": {
+                  "package.json": 83,
+                  "index.js": 2796
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/pascoual_pdfkit.js": 72,
+    "packages/matb33_collection-hooks.js": [
+      12448,
+      {
+        "node_modules": {
+          "meteor": {
+            "matb33:collection-hooks": {
+              "client.js": 346,
+              "advices.js": 177,
+              "collection-hooks.js": 4224,
+              "find.js": 454,
+              "findone.js": 449,
+              "insert.js": 1105,
+              "remove.js": 977,
+              "update.js": 2083,
+              "upsert.js": 1701,
+              "users-compat.js": 258
+            }
+          }
+        }
+      }
+    ],
+    "packages/simple_json-routes.js": 38,
+    "packages/communitypackages_picker.js": 44,
+    "packages/minifier-css.js": 66,
+    "packages/momentjs_moment.js": 60808,
+    "packages/wekan-fullcalendar.js": 417515,
+    "packages/wekan-fontawesome.js": 37,
+    "packages/webapp.js": [
+      651,
+      {
+        "node_modules": {
+          "meteor": {
+            "webapp": {
+              "webapp_client.js": 317
+            }
+          }
+        }
+      }
+    ],
+    "packages/hot-code-push.js": 33,
+    "packages/autoupdate.js": [
+      3524,
+      {
+        "node_modules": {
+          "meteor": {
+            "autoupdate": {
+              "autoupdate_client.js": 1928,
+              "client_versions.js": 1117
+            }
+          }
+        }
+      }
+    ],
+    "app/global-imports.js": [
+      2389,
+      {}
+    ],
+    "app/app.js": [
+      1337111,
+      {
+        "client": {
+          "components": {
+            "rules": {
+              "actions": {
+                "template.boardActions.js": 7155,
+                "template.cardActions.js": 5998,
+                "template.checklistActions.js": 4126,
+                "template.mailActions.js": 972,
+                "boardActions.js": 3378,
+                "cardActions.js": 3841,
+                "checklistActions.js": 2433,
+                "mailActions.js": 534
+              },
+              "triggers": {
+                "template.boardTriggers.js": 7310,
+                "template.cardTriggers.js": 7553,
+                "template.checklistTriggers.js": 8411,
+                "boardTriggers.js": 2108,
+                "cardTriggers.js": 2188,
+                "checklistTriggers.js": 2490
+              },
+              "template.ruleDetails.js": 1267,
+              "template.rulesActions.js": 2859,
+              "template.rulesList.js": 2566,
+              "template.rulesMain.js": 1374,
+              "template.rulesTriggers.js": 1681,
+              "ruleDetails.js": 593,
+              "rulesActions.js": 1493,
+              "rulesList.js": 283,
+              "rulesMain.js": 1779,
+              "rulesTriggers.js": 1330
+            },
+            "activities": {
+              "template.activities.js": 21886,
+              "template.comments.js": 6622,
+              "activities.js": 5593,
+              "comments.js": 1684
+            },
+            "boards": {
+              "template.boardArchive.js": 1717,
+              "template.boardBody.js": 4775,
+              "template.boardHeader.js": 23762,
+              "template.boardsList.js": 12199,
+              "template.miniboard.js": 507,
+              "boardArchive.js": 937,
+              "boardBody.js": 8039,
+              "boardHeader.js": 5644,
+              "boardsList.js": 5390
+            },
+            "cards": {
+              "template.attachments.js": 12509,
+              "template.cardCustomFields.js": 12316,
+              "template.cardDate.js": 2737,
+              "template.cardDescription.js": 777,
+              "template.cardDetails.js": 84918,
+              "template.cardTime.js": 2569,
+              "template.checklists.js": 21263,
+              "template.labels.js": 3905,
+              "template.minicard.js": 20572,
+              "template.resultCard.js": 2923,
+              "template.subtasks.js": 9661,
+              "attachments.js": 7516,
+              "cardCustomFields.js": 5292,
+              "cardDate.js": 6145,
+              "cardDescription.js": 510,
+              "cardDetails.js": 28820,
+              "cardTime.js": 1433,
+              "checklists.js": 7223,
+              "labels.js": 2739,
+              "minicard.js": 3639,
+              "resultCard.js": 496,
+              "subtasks.js": 2150
+            },
+            "forms": {
+              "template.datepicker.js": 1631,
+              "template.inlinedform.js": 707
+            },
+            "import": {
+              "template.import.js": 6196,
+              "csvMembersMapper.js": 448,
+              "import.js": 4510,
+              "trelloMembersMapper.js": 244,
+              "wekanMembersMapper.js": 407
+            },
+            "lists": {
+              "template.list.js": 1228,
+              "template.listBody.js": 13178,
+              "template.listHeader.js": 19269,
+              "template.minilist.js": 504,
+              "list.js": 3293,
+              "listBody.js": 14643,
+              "listHeader.js": 6584
+            },
+            "main": {
+              "template.accessibility.js": 699,
+              "template.brokenCards.js": 1379,
+              "template.dueCards.js": 4208,
+              "template.editor.js": 1401,
+              "template.globalSearch.js": 7646,
+              "template.header.js": 9559,
+              "template.keyboardShortcuts.js": 1417,
+              "template.layouts.js": 7594,
+              "template.myCards.js": 9585,
+              "template.popup.tpl.js": 1890,
+              "template.spinner.js": 643,
+              "template.spinner_bounce.js": 615,
+              "template.spinner_cube.js": 575,
+              "template.spinner_cube_grid.js": 938,
+              "template.spinner_dot.js": 537,
+              "template.spinner_double_bounce.js": 630,
+              "template.spinner_rotateplane.js": 582,
+              "template.spinner_scaleout.js": 555,
+              "template.spinner_wave.js": 661,
+              "accessibility.js": 294,
+              "brokenCards.js": 341,
+              "dueCards.js": 1498,
+              "editor.js": 2851,
+              "globalSearch.js": 7380,
+              "header.js": 1746,
+              "layouts.js": 4085,
+              "myCards.js": 1911,
+              "popup.js": 442,
+              "spinner.js": 223
+            },
+            "notifications": {
+              "template.notification.js": 1022,
+              "template.notificationIcon.js": 4967,
+              "template.notifications.js": 860,
+              "template.notificationsDrawer.js": 2349,
+              "notification.js": 623,
+              "notifications.js": 562,
+              "notificationsDrawer.js": 1303
+            },
+            "settings": {
+              "template.adminReports.js": 9856,
+              "template.attachments.js": 7563,
+              "template.connectionMethod.js": 957,
+              "template.informationBody.js": 10617,
+              "template.invitationCode.js": 501,
+              "template.peopleBody.js": 51391,
+              "template.settingBody.js": 28712,
+              "template.settingHeader.js": 2392,
+              "template.translationBody.js": 7454,
+              "adminReports.js": 4025,
+              "attachments.js": 2869,
+              "connectionMethod.js": 697,
+              "informationBody.js": 753,
+              "invitationCode.js": 277,
+              "peopleBody.js": 18913,
+              "settingBody.js": 9668,
+              "translationBody.js": 3813
+            },
+            "sidebar": {
+              "template.sidebar.js": 60010,
+              "template.sidebarArchives.js": 7004,
+              "template.sidebarCustomFields.js": 8996,
+              "template.sidebarFilters.js": 18843,
+              "template.sidebarSearches.js": 1446,
+              "sidebar.js": 36153,
+              "sidebarArchives.js": 2503,
+              "sidebarCustomFields.js": 5253,
+              "sidebarFilters.js": 4288,
+              "sidebarSearches.js": 650
+            },
+            "swimlanes": {
+              "template.miniswimlane.js": 516,
+              "template.swimlaneHeader.js": 10238,
+              "template.swimlanes.js": 9310,
+              "swimlaneHeader.js": 3855,
+              "swimlanes.js": 5279
+            },
+            "users": {
+              "template.userAvatar.js": 12695,
+              "template.userHeader.js": 14314,
+              "userAvatar.js": 4143,
+              "userHeader.js": 6409
+            },
+            "mixins": {
+              "infiniteScrolling.js": 408
+            }
+          },
+          "lib": {
+            "accessibility.js": 423,
+            "cardSearch.js": 3863,
+            "cssEvents.js": 617,
+            "customFields.js": 639,
+            "datepicker.js": 2220,
+            "dialogWithBoardSwimlaneList.js": 2688,
+            "dialogWithBoardSwimlaneListCard.js": 1164,
+            "dropImage.js": 811,
+            "escapeActions.js": 1760,
+            "exportHTML.js": 3946,
+            "filter.js": 8491,
+            "i18n.js": 660,
+            "inlinedform.js": 938,
+            "jquery-ui.js": 378,
+            "keyboard.js": 4938,
+            "mixins.js": 23,
+            "modal.js": 975,
+            "multiSelection.js": 2396,
+            "pasteImage.js": 758,
+            "popup.js": 2744,
+            "spinner.js": 472,
+            "textComplete.js": 578,
+            "unsavedEdits.js": 865,
+            "utils.js": 8247
+          },
+          "config": {
+            "blazeHelpers.js": 1478,
+            "gecko-fix.js": 119,
+            "reactiveTabs.js": 76
+          },
+          "00-startup.js": 147
+        },
+        "models": {
+          "lib": {
+            "fsHooks": {
+              "createOnAfterUpload.js": 726
+            },
+            "grid": {
+              "createBucket.js": 232,
+              "createObjectId.js": 177
+            },
+            "attachmentStoreStrategy.js": 1313,
+            "fileStoreStrategy.js": 8604,
+            "httpStream.js": 631
+          },
+          "accessibilitySettings.js": 897,
+          "accountSettings.js": 1332,
+          "actions.js": 675,
+          "activities.js": 4971,
+          "announcements.js": 863,
+          "attachments.js": 3475,
+          "avatars.js": 2752,
+          "boards.js": 26080,
+          "cardCommentReactions.js": 884,
+          "cardComments.js": 4450,
+          "cards.js": 44445,
+          "checklistItems.js": 4701,
+          "checklists.js": 5268,
+          "counters.js": 55,
+          "csvCreator.js": 5636,
+          "customFields.js": 7134,
+          "export.js": 2406,
+          "exportExcel.js": 939,
+          "exportPDF.js": 963,
+          "exporter.js": 6045,
+          "fileValidation.js": 330,
+          "impersonatedUsers.js": 585,
+          "import.js": 818,
+          "integrations.js": 4373,
+          "invitationCodes.js": 884,
+          "lists.js": 7837,
+          "org.js": 3472,
+          "orgUser.js": 737,
+          "rules.js": 1187,
+          "runOnServer.js": 80,
+          "settings.js": 7792,
+          "swimlanes.js": 6703,
+          "tableVisibilityModeSettings.js": 1086,
+          "team.js": 3073,
+          "translation.js": 1375,
+          "trelloCreator.js": 9270,
+          "triggers.js": 1007,
+          "unsavedEdits.js": 945,
+          "users.js": 28576,
+          "usersessiondata.js": 2222,
+          "watchable.js": 954,
+          "wekanCreator.js": 10706,
+          "wekanmapper.js": 402
+        },
+        "imports": {
+          "i18n": {
+            "accounts.js": 2445,
+            "blaze.js": 361,
+            "index.js": 191,
+            "languages.js": 13895,
+            "moment.js": 256,
+            "tap.js": 1788,
+            "data": {
+              "af.i18n.json": 2,
+              "af_ZA.i18n.json": 2,
+              "en_AU.i18n.json": 2,
+              "en_ZA.i18n.json": 2,
+              "ar-DZ.i18n.json": 2,
+              "ar-EG.i18n.json": 2,
+              "ar.i18n.json": 2,
+              "ary.i18n.json": 2,
+              "az-AZ.i18n.json": 2,
+              "az-LA.i18n.json": 2,
+              "az.i18n.json": 2,
+              "bg.i18n.json": 2,
+              "br.i18n.json": 2,
+              "ca.i18n.json": 2,
+              "ca_ES.i18n.json": 2,
+              "cmn.i18n.json": 2,
+              "cs.i18n.json": 2,
+              "cs-CZ.i18n.json": 2,
+              "cy-GB.i18n.json": 2,
+              "cy.i18n.json": 2,
+              "da.i18n.json": 2,
+              "de-AT.i18n.json": 2,
+              "de-CH.i18n.json": 2,
+              "de_DE.i18n.json": 2,
+              "de.i18n.json": 2,
+              "el-GR.i18n.json": 2,
+              "el.i18n.json": 2,
+              "en-BR.i18n.json": 2,
+              "en-DE.i18n.json": 2,
+              "en-GB.i18n.json": 2,
+              "en-IT.i18n.json": 2,
+              "en-MY.i18n.json": 2,
+              "en-YS.i18n.json": 2,
+              "en.i18n.json": 2,
+              "eo.i18n.json": 2,
+              "ast-ES.i18n.json": 2,
+              "es-AR.i18n.json": 2,
+              "es-CL.i18n.json": 2,
+              "es-LA.i18n.json": 2,
+              "es-MX.i18n.json": 2,
+              "es-PE.i18n.json": 2,
+              "es-PY.i18n.json": 2,
+              "es.i18n.json": 2,
+              "et-EE.i18n.json": 2,
+              "eu.i18n.json": 2,
+              "fa-IR.i18n.json": 2,
+              "fa.i18n.json": 2,
+              "fi.i18n.json": 2,
+              "fr-CH.i18n.json": 2,
+              "fr.i18n.json": 2,
+              "fy-NL.i18n.json": 2,
+              "fy.i18n.json": 2,
+              "gl-ES.i18n.json": 2,
+              "gl.i18n.json": 2,
+              "gu-IN.i18n.json": 2,
+              "he-IL.i18n.json": 2,
+              "he.i18n.json": 2,
+              "hi-IN.i18n.json": 2,
+              "hi.i18n.json": 2,
+              "hr.i18n.json": 2,
+              "hu.i18n.json": 2,
+              "hy.i18n.json": 2,
+              "id.i18n.json": 2,
+              "ig.i18n.json": 2,
+              "it.i18n.json": 2,
+              "ja.i18n.json": 2,
+              "ja-HI.i18n.json": 2,
+              "ka.i18n.json": 2,
+              "km.i18n.json": 2,
+              "ko-KR.i18n.json": 2,
+              "ko.i18n.json": 2,
+              "lt.i18n.json": 2,
+              "lv.i18n.json": 2,
+              "mk.i18n.json": 2,
+              "mn.i18n.json": 2,
+              "ms.i18n.json": 2,
+              "ms-MY.i18n.json": 2,
+              "nb.i18n.json": 2,
+              "nl-NL.i18n.json": 2,
+              "nl.i18n.json": 2,
+              "oc.i18n.json": 2,
+              "or_IN.i18n.json": 2,
+              "pa.i18n.json": 2,
+              "pl-PL.i18n.json": 2,
+              "pl.i18n.json": 2,
+              "pt-BR.i18n.json": 2,
+              "pt.i18n.json": 2,
+              "ro.i18n.json": 2,
+              "ro-RO.i18n.json": 2,
+              "ru.i18n.json": 2,
+              "sk.i18n.json": 2,
+              "sl.i18n.json": 2,
+              "sr.i18n.json": 2,
+              "sv.i18n.json": 2,
+              "sw.i18n.json": 2,
+              "ta.i18n.json": 2,
+              "te-IN.i18n.json": 2,
+              "th.i18n.json": 2,
+              "tlh.i18n.json": 2,
+              "tr.i18n.json": 2,
+              "ug.i18n.json": 2,
+              "uk.i18n.json": 2,
+              "uk-UA.i18n.json": 2,
+              "uz-AR.i18n.json": 2,
+              "uz-LA.i18n.json": 2,
+              "uz-UZ.i18n.json": 2,
+              "uz.i18n.json": 2,
+              "ve-CC.i18n.json": 2,
+              "ve-PP.i18n.json": 2,
+              "ve.i18n.json": 2,
+              "vi-VN.i18n.json": 2,
+              "vi.i18n.json": 2,
+              "vl-SS.i18n.json": 2,
+              "vo.i18n.json": 2,
+              "wa-RR.i18n.json": 2,
+              "wa.i18n.json": 2,
+              "wo.i18n.json": 2,
+              "xh.i18n.json": 2,
+              "yi.i18n.json": 2,
+              "yo.i18n.json": 2,
+              "zgh.i18n.json": 2,
+              "yue_CN.i18n.json": 2,
+              "zh-CN.i18n.json": 2,
+              "zh-GB.i18n.json": 2,
+              "zh-Hans.i18n.json": 2,
+              "zh-Hant.i18n.json": 2,
+              "zh-HK.i18n.json": 2,
+              "zh-TW.i18n.json": 2,
+              "zu-ZA.i18n.json": 2,
+              "zu.i18n.json": 2
+            }
+          },
+          "reactiveCache.js": 47893
+        },
+        "config": {
+          "accounts.js": 1792,
+          "const.js": 1015,
+          "models.js": 101,
+          "query-classes.js": 8048,
+          "router.js": 8092,
+          "search-const.js": 1638
+        },
+        "sandstorm.js": 5984
+      }
+    ],
+    "packages/mdg_validation-error.js": [
+      806,
+      {
+        "node_modules": {
+          "meteor": {
+            "mdg:validation-error": {
+              "validation-error.js": 373
+            }
+          }
+        }
+      }
+    ]
+  }
+}

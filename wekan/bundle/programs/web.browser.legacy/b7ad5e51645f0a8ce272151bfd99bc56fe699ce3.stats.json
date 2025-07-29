@@ -1,0 +1,2084 @@
+{
+  "minifier": {
+    "name": "standard-minifier-js",
+    "version": "2.8.1"
+  },
+  "totalMinifiedBytes": 2954957,
+  "totalMinifiedGzipBytes": 629438,
+  "minifiedBytesByPackage": {
+    "packages/meteor.js": 10123,
+    "packages/meteor-base.js": 31,
+    "packages/modules-runtime.js": 5294,
+    "packages/modules.js": [
+      12288,
+      {
+        "node_modules": {
+          "meteor": {
+            "modules": {
+              "client.js": 126,
+              "legacy.js": 42,
+              "css.js": 263,
+              "install-packages.js": 4435,
+              "process.js": 349,
+              "reify.js": 83,
+              "stubs.js": 99,
+              "node_modules": {
+                "@meteorjs": {
+                  "reify": {
+                    "lib": {
+                      "runtime": {
+                        "index.js": 954,
+                        "utils.js": 1309,
+                        "entry.js": 3503
+                      }
+                    }
+                  }
+                },
+                "meteor-babel-helpers": {
+                  "package.json": 90,
+                  "index.js": 387
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/modern-browsers.js": 35,
+    "packages/babel-compiler.js": 34,
+    "packages/react-fast-refresh.js": [
+      2966,
+      {
+        "node_modules": {
+          "meteor": {
+            "react-fast-refresh": {
+              "client.js": 332,
+              "client-runtime.js": 1364,
+              "node_modules": {
+                "react-refresh": {
+                  "runtime.js": 92,
+                  "cjs": {
+                    "react-refresh-runtime.production.min.js": 366,
+                    "react-refresh-runtime.development.js": 282
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/ecmascript.js": 30,
+    "packages/standard-minifier-js.js": 40,
+    "packages/jquery.js": [
+      784,
+      {
+        "node_modules": {
+          "meteor": {
+            "jquery": {
+              "main.js": 451
+            }
+          }
+        }
+      }
+    ],
+    "packages/ecmascript-runtime.js": 38,
+    "packages/babel-runtime.js": 33,
+    "packages/promise.js": [
+      5834,
+      {
+        "node_modules": {
+          "meteor": {
+            "promise": {
+              "modern.js": 25,
+              "legacy.js": 97,
+              "client.js": 73,
+              "extensions.js": 403,
+              "node_modules": {
+                "promise": {
+                  "lib": {
+                    "es6-extensions.js": 1373,
+                    "core.js": 1838
+                  }
+                },
+                "asap": {
+                  "package.json": 249,
+                  "raw.js": 63,
+                  "browser-raw.js": 684
+                },
+                "meteor-promise": {
+                  "package.json": 121,
+                  "promise_client.js": 268
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/fetch.js": [
+      10714,
+      {
+        "node_modules": {
+          "meteor": {
+            "fetch": {
+              "legacy.js": 112,
+              "node_modules": {
+                "whatwg-fetch": {
+                  "package.json": 114,
+                  "dist": {
+                    "fetch.umd.js": 10064
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/dynamic-import.js": [
+      12951,
+      {
+        "node_modules": {
+          "meteor": {
+            "dynamic-import": {
+              "client.js": 1923,
+              "cache.js": 1952,
+              "common.js": 62,
+              "dynamic-versions.js": 8574
+            }
+          }
+        }
+      }
+    ],
+    "packages/es5-shim.js": [
+      28782,
+      {
+        "node_modules": {
+          "meteor": {
+            "es5-shim": {
+              "client.js": 134,
+              "console.js": 291,
+              "export_globals.js": 154,
+              "import_globals.js": 77,
+              "node_modules": {
+                "es5-shim": {
+                  "es5-shim.js": 22843,
+                  "es5-sham.js": 4835
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/ecmascript-runtime-client.js": [
+      123222,
+      {
+        "node_modules": {
+          "meteor": {
+            "ecmascript-runtime-client": {
+              "modern.js": 766,
+              "legacy.js": 1059,
+              "node_modules": {
+                "core-js": {
+                  "es": {
+                    "symbol": {
+                      "index.js": 858
+                    },
+                    "map": {
+                      "index.js": 217
+                    },
+                    "set": {
+                      "index.js": 217
+                    },
+                    "array": {
+                      "index.js": 1158
+                    },
+                    "function": {
+                      "index.js": 187
+                    },
+                    "math": {
+                      "index.js": 663
+                    },
+                    "object": {
+                      "index.js": 1278
+                    },
+                    "regexp": {
+                      "index.js": 413
+                    },
+                    "string": {
+                      "index.js": 1321
+                    },
+                    "weak-map": {
+                      "index.js": 188
+                    },
+                    "weak-set": {
+                      "index.js": 188
+                    }
+                  },
+                  "modules": {
+                    "es.array.concat.js": 961,
+                    "es.object.to-string.js": 174,
+                    "es.symbol.js": 4691,
+                    "es.symbol.async-iterator.js": 80,
+                    "es.symbol.description.js": 890,
+                    "es.symbol.has-instance.js": 78,
+                    "es.symbol.is-concat-spreadable.js": 85,
+                    "es.symbol.iterator.js": 75,
+                    "es.symbol.match.js": 72,
+                    "es.symbol.match-all.js": 75,
+                    "es.symbol.replace.js": 74,
+                    "es.symbol.search.js": 73,
+                    "es.symbol.species.js": 74,
+                    "es.symbol.split.js": 72,
+                    "es.symbol.to-primitive.js": 78,
+                    "es.symbol.to-string-tag.js": 78,
+                    "es.symbol.unscopables.js": 78,
+                    "es.json.to-string-tag.js": 101,
+                    "es.math.to-string-tag.js": 72,
+                    "es.reflect.to-string-tag.js": 164,
+                    "es.map.js": 213,
+                    "es.string.iterator.js": 409,
+                    "web.dom-collections.iterator.js": 432,
+                    "es.array.iterator.js": 618,
+                    "es.set.js": 213,
+                    "es.array.from.js": 204,
+                    "es.array.is-array.js": 110,
+                    "es.array.of.js": 368,
+                    "es.array.copy-within.js": 182,
+                    "es.array.every.js": 270,
+                    "es.array.fill.js": 163,
+                    "es.array.filter.js": 283,
+                    "es.array.find.js": 315,
+                    "es.array.find-index.js": 335,
+                    "es.array.flat.js": 404,
+                    "es.array.flat-map.js": 401,
+                    "es.array.for-each.js": 155,
+                    "es.array.includes.js": 266,
+                    "es.array.index-of.js": 353,
+                    "es.array.join.js": 316,
+                    "es.array.last-index-of.js": 156,
+                    "es.array.map.js": 274,
+                    "es.array.reduce.js": 378,
+                    "es.array.reduce-right.js": 389,
+                    "es.array.reverse.js": 255,
+                    "es.array.slice.js": 784,
+                    "es.array.some.js": 267,
+                    "es.array.sort.js": 1324,
+                    "es.array.species.js": 59,
+                    "es.array.splice.js": 923,
+                    "es.array.unscopables.flat.js": 69,
+                    "es.array.unscopables.flat-map.js": 72,
+                    "es.function.bind.js": 116,
+                    "es.function.name.js": 274,
+                    "es.function.has-instance.js": 405,
+                    "es.math.acosh.js": 303,
+                    "es.math.asinh.js": 209,
+                    "es.math.atanh.js": 178,
+                    "es.math.cbrt.js": 173,
+                    "es.math.clz32.js": 166,
+                    "es.math.cosh.js": 225,
+                    "es.math.expm1.js": 134,
+                    "es.math.fround.js": 111,
+                    "es.math.hypot.js": 303,
+                    "es.math.imul.js": 282,
+                    "es.math.log10.js": 134,
+                    "es.math.log1p.js": 109,
+                    "es.math.log2.js": 130,
+                    "es.math.sign.js": 107,
+                    "es.math.sinh.js": 295,
+                    "es.math.tanh.js": 203,
+                    "es.math.trunc.js": 139,
+                    "es.object.assign.js": 144,
+                    "es.object.create.js": 153,
+                    "es.object.define-property.js": 186,
+                    "es.object.define-properties.js": 188,
+                    "es.object.entries.js": 155,
+                    "es.object.freeze.js": 310,
+                    "es.object.from-entries.js": 232,
+                    "es.object.get-own-property-descriptor.js": 335,
+                    "es.object.get-own-property-descriptors.js": 414,
+                    "es.object.get-own-property-names.js": 248,
+                    "es.object.get-prototype-of.js": 305,
+                    "es.object.is.js": 108,
+                    "es.object.is-extensible.js": 238,
+                    "es.object.is-frozen.js": 228,
+                    "es.object.is-sealed.js": 228,
+                    "es.object.keys.js": 228,
+                    "es.object.prevent-extensions.js": 332,
+                    "es.object.seal.js": 306,
+                    "es.object.set-prototype-of.js": 133,
+                    "es.object.values.js": 153,
+                    "es.object.define-getter.js": 382,
+                    "es.object.define-setter.js": 382,
+                    "es.object.lookup-getter.js": 452,
+                    "es.object.lookup-setter.js": 452,
+                    "es.regexp.constructor.js": 2296,
+                    "es.regexp.to-string.js": 457,
+                    "es.regexp.dot-all.js": 375,
+                    "es.regexp.exec.js": 149,
+                    "es.regexp.flags.js": 332,
+                    "es.regexp.sticky.js": 384,
+                    "es.regexp.test.js": 484,
+                    "es.string.match.js": 692,
+                    "es.string.replace.js": 1524,
+                    "es.string.search.js": 575,
+                    "es.string.split.js": 2237,
+                    "es.string.from-code-point.js": 423,
+                    "es.string.raw.js": 304,
+                    "es.string.code-point-at.js": 178,
+                    "es.string.ends-with.js": 639,
+                    "es.string.includes.js": 334,
+                    "es.string.match-all.js": 2041,
+                    "es.string.pad-end.js": 252,
+                    "es.string.pad-start.js": 256,
+                    "es.string.repeat.js": 116,
+                    "es.string.replace-all.js": 938,
+                    "es.string.starts-with.js": 623,
+                    "es.string.substr.js": 375,
+                    "es.string.trim.js": 215,
+                    "es.string.trim-start.js": 260,
+                    "es.string.trim-end.js": 253,
+                    "es.string.anchor.js": 228,
+                    "es.string.big.js": 220,
+                    "es.string.blink.js": 226,
+                    "es.string.bold.js": 220,
+                    "es.string.fixed.js": 223,
+                    "es.string.fontcolor.js": 238,
+                    "es.string.fontsize.js": 235,
+                    "es.string.italics.js": 226,
+                    "es.string.link.js": 224,
+                    "es.string.small.js": 226,
+                    "es.string.strike.js": 229,
+                    "es.string.sub.js": 220,
+                    "es.string.sup.js": 220,
+                    "es.weak-map.js": 1200,
+                    "es.weak-set.js": 197,
+                    "es.number.epsilon.js": 98,
+                    "es.number.is-finite.js": 120,
+                    "es.number.is-integer.js": 115,
+                    "es.number.is-nan.js": 107,
+                    "es.number.is-safe-integer.js": 183,
+                    "es.number.max-safe-integer.js": 108,
+                    "es.number.min-safe-integer.js": 109,
+                    "es.number.parse-float.js": 156,
+                    "es.number.parse-int.js": 150,
+                    "es.typed-array.uint8-array.js": 133,
+                    "es.typed-array.uint32-array.js": 134
+                  },
+                  "internals": {
+                    "export.js": 612,
+                    "global.js": 264,
+                    "object-get-own-property-descriptor.js": 428,
+                    "descriptors.js": 144,
+                    "fails.js": 76,
+                    "object-property-is-enumerable.js": 178,
+                    "create-property-descriptor.js": 113,
+                    "to-indexed-object.js": 140,
+                    "indexed-object.js": 225,
+                    "classof-raw.js": 88,
+                    "require-object-coercible.js": 104,
+                    "to-primitive.js": 354,
+                    "is-object.js": 96,
+                    "has.js": 136,
+                    "to-object.js": 110,
+                    "ie8-dom-define.js": 231,
+                    "document-create-element.js": 173,
+                    "create-non-enumerable-property.js": 229,
+                    "object-define-property.js": 359,
+                    "an-object.js": 140,
+                    "redefine.js": 684,
+                    "set-global.js": 163,
+                    "inspect-source.js": 185,
+                    "shared-store.js": 131,
+                    "internal-state.js": 968,
+                    "native-weak-map.js": 153,
+                    "shared-key.js": 133,
+                    "shared.js": 259,
+                    "is-pure.js": 31,
+                    "uid.js": 131,
+                    "hidden-keys.js": 31,
+                    "copy-constructor-properties.js": 279,
+                    "own-keys.js": 284,
+                    "get-built-in.js": 222,
+                    "path.js": 61,
+                    "object-get-own-property-names.js": 187,
+                    "object-keys-internal.js": 306,
+                    "array-includes.js": 363,
+                    "to-length.js": 125,
+                    "to-integer.js": 104,
+                    "to-absolute-index.js": 138,
+                    "enum-bug-keys.js": 138,
+                    "object-get-own-property-symbols.js": 49,
+                    "is-forced.js": 279,
+                    "is-array.js": 114,
+                    "create-property.js": 226,
+                    "array-species-create.js": 320,
+                    "well-known-symbol.js": 359,
+                    "native-symbol.js": 217,
+                    "engine-v8-version.js": 266,
+                    "engine-user-agent.js": 96,
+                    "use-symbol-as-uid.js": 106,
+                    "array-method-has-species-support.js": 281,
+                    "to-string-tag-support.js": 124,
+                    "object-to-string.js": 172,
+                    "classof.js": 435,
+                    "object-create.js": 954,
+                    "object-define-properties.js": 284,
+                    "object-keys.js": 149,
+                    "html.js": 97,
+                    "object-get-own-property-names-external.js": 363,
+                    "well-known-symbol-wrapped.js": 64,
+                    "define-well-known-symbol.js": 245,
+                    "set-to-string-tag.js": 234,
+                    "array-iteration.js": 720,
+                    "function-bind-context.js": 358,
+                    "a-function.js": 122,
+                    "collection.js": 1517,
+                    "internal-metadata.js": 700,
+                    "freezing.js": 133,
+                    "iterate.js": 885,
+                    "is-array-iterator-method.js": 190,
+                    "iterators.js": 31,
+                    "get-iterator-method.js": 204,
+                    "iterator-close.js": 130,
+                    "an-instance.js": 131,
+                    "check-correctness-of-iteration.js": 380,
+                    "inherit-if-required.js": 229,
+                    "object-set-prototype-of.js": 368,
+                    "a-possible-prototype.js": 161,
+                    "collection-strong.js": 2315,
+                    "redefine-all.js": 116,
+                    "define-iterator.js": 1372,
+                    "create-iterator-constructor.js": 370,
+                    "iterators-core.js": 531,
+                    "object-get-prototype-of.js": 372,
+                    "correct-prototype-getter.js": 169,
+                    "set-species.js": 302,
+                    "string-multibyte.js": 386,
+                    "dom-iterables.js": 530,
+                    "add-to-unscopables.js": 261,
+                    "array-from.js": 718,
+                    "call-with-safe-iteration-closing.js": 173,
+                    "array-copy-within.js": 403,
+                    "array-method-is-strict.js": 164,
+                    "array-fill.js": 311,
+                    "flatten-into-array.js": 399,
+                    "array-for-each.js": 229,
+                    "array-last-index-of.js": 479,
+                    "array-reduce.js": 462,
+                    "engine-is-node.js": 115,
+                    "array-sort.js": 421,
+                    "engine-ff-version.js": 108,
+                    "engine-is-ie-or-edge.js": 93,
+                    "engine-webkit-version.js": 113,
+                    "function-bind.js": 487,
+                    "math-log1p.js": 112,
+                    "math-sign.js": 88,
+                    "math-expm1.js": 197,
+                    "math-fround.js": 287,
+                    "object-assign.js": 818,
+                    "object-to-array.js": 358,
+                    "same-value.js": 96,
+                    "object-prototype-accessors-forced.js": 283,
+                    "is-regexp.js": 214,
+                    "regexp-flags.js": 237,
+                    "regexp-sticky-helpers.js": 266,
+                    "regexp-unsupported-dot-all.js": 148,
+                    "regexp-unsupported-ncg.js": 171,
+                    "regexp-exec.js": 1402,
+                    "fix-regexp-well-known-symbol-logic.js": 817,
+                    "advance-string-index.js": 135,
+                    "regexp-exec-abstract.js": 363,
+                    "get-substitution.js": 566,
+                    "species-constructor.js": 228,
+                    "not-a-regexp.js": 157,
+                    "correct-is-regexp-logic.js": 180,
+                    "string-pad.js": 378,
+                    "string-repeat.js": 280,
+                    "string-pad-webkit-bug.js": 145,
+                    "string-trim.js": 305,
+                    "whitespaces.js": 107,
+                    "string-trim-forced.js": 181,
+                    "create-html.js": 213,
+                    "string-html-forced.js": 162,
+                    "collection-weak.js": 1498,
+                    "number-is-finite.js": 133,
+                    "is-integer.js": 125,
+                    "number-parse-float.js": 244,
+                    "number-parse-int.js": 268,
+                    "typed-array-constructor.js": 3176,
+                    "typed-array-constructors-require-wrappers.js": 413,
+                    "array-buffer-view-core.js": 2213,
+                    "array-buffer-native.js": 90,
+                    "array-buffer.js": 3777,
+                    "to-index.js": 207,
+                    "ieee754.js": 819,
+                    "to-offset.js": 147,
+                    "to-positive-integer.js": 157,
+                    "typed-array-from.js": 584
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/tracker.js": [
+      5691,
+      {
+        "node_modules": {
+          "meteor": {
+            "tracker": {
+              "tracker.js": 5191
+            }
+          }
+        }
+      }
+    ],
+    "packages/base64.js": [
+      1999,
+      {
+        "node_modules": {
+          "meteor": {
+            "base64": {
+              "base64.js": 1510
+            }
+          }
+        }
+      }
+    ],
+    "packages/ejson.js": [
+      8087,
+      {
+        "node_modules": {
+          "meteor": {
+            "ejson": {
+              "ejson.js": 5369,
+              "stringify.js": 974,
+              "utils.js": 1209
+            }
+          }
+        }
+      }
+    ],
+    "packages/check.js": [
+      6643,
+      {
+        "node_modules": {
+          "meteor": {
+            "check": {
+              "match.js": 5779,
+              "isPlainObject.js": 329
+            }
+          }
+        }
+      }
+    ],
+    "packages/random.js": [
+      4685,
+      {
+        "node_modules": {
+          "meteor": {
+            "random": {
+              "main_client.js": 345,
+              "AbstractRandomGenerator.js": 928,
+              "AleaRandomGenerator.js": 1229,
+              "BrowserRandomGenerator.js": 452,
+              "createAleaGenerator.js": 691,
+              "createRandom.js": 411
+            }
+          }
+        }
+      }
+    ],
+    "packages/mongo-id.js": [
+      2305,
+      {
+        "node_modules": {
+          "meteor": {
+            "mongo-id": {
+              "id.js": 1769
+            }
+          }
+        }
+      }
+    ],
+    "packages/diff-sequence.js": [
+      3095,
+      {
+        "node_modules": {
+          "meteor": {
+            "diff-sequence": {
+              "diff.js": 2559
+            }
+          }
+        }
+      }
+    ],
+    "packages/observe-sequence.js": [
+      4611,
+      {
+        "node_modules": {
+          "meteor": {
+            "observe-sequence": {
+              "observe_sequence.js": 3916
+            }
+          }
+        }
+      }
+    ],
+    "packages/reactive-var.js": 818,
+    "packages/ordered-dict.js": [
+      4017,
+      {
+        "node_modules": {
+          "meteor": {
+            "ordered-dict": {
+              "ordered_dict.js": 3491
+            }
+          }
+        }
+      }
+    ],
+    "packages/htmljs.js": [
+      13076,
+      {
+        "node_modules": {
+          "meteor": {
+            "htmljs": {
+              "preamble.js": 1453,
+              "html.js": 5062,
+              "visitors.js": 6044
+            }
+          }
+        }
+      }
+    ],
+    "packages/blaze.js": [
+      51595,
+      {
+        "node_modules": {
+          "meteor": {
+            "blaze": {
+              "preamble.js": 523,
+              "dombackend.js": 1760,
+              "domrange.js": 6215,
+              "events.js": 2000,
+              "attrs.js": 4125,
+              "materializer.js": 2150,
+              "exceptions.js": 491,
+              "view.js": 10286,
+              "builtins.js": 4452,
+              "lookup.js": 3258,
+              "template.js": 5680,
+              "backcompat.js": 246,
+              "node_modules": {
+                "lodash.has": {
+                  "package.json": 64,
+                  "index.js": 5016
+                },
+                "lodash.isobject": {
+                  "package.json": 69,
+                  "index.js": 99
+                },
+                "lodash.isfunction": {
+                  "package.json": 71,
+                  "index.js": 774
+                },
+                "lodash.isempty": {
+                  "package.json": 68,
+                  "index.js": 2650
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/mquandalle_jade.js": 35,
+    "packages/coffeescript.js": 32,
+    "packages/underscore.js": 14437,
+    "packages/aldeed_simple-schema.js": 34851,
+    "packages/geojson-utils.js": [
+      5226,
+      {
+        "node_modules": {
+          "meteor": {
+            "geojson-utils": {
+              "main.js": 50,
+              "geojson-utils.js": 4805
+            }
+          }
+        }
+      }
+    ],
+    "packages/id-map.js": [
+      1935,
+      {
+        "node_modules": {
+          "meteor": {
+            "id-map": {
+              "id-map.js": 1423
+            }
+          }
+        }
+      }
+    ],
+    "packages/minimongo.js": [
+      49307,
+      {
+        "node_modules": {
+          "meteor": {
+            "minimongo": {
+              "minimongo_client.js": 50,
+              "common.js": 13388,
+              "constants.js": 366,
+              "cursor.js": 5743,
+              "local_collection.js": 21623,
+              "matcher.js": 3121,
+              "minimongo_common.js": 237,
+              "observe_handle.js": 102,
+              "sorter.js": 3699
+            }
+          }
+        }
+      }
+    ],
+    "packages/retry.js": [
+      1479,
+      {
+        "node_modules": {
+          "meteor": {
+            "retry": {
+              "retry.js": 972
+            }
+          }
+        }
+      }
+    ],
+    "packages/callback-hook.js": [
+      2572,
+      {
+        "node_modules": {
+          "meteor": {
+            "callback-hook": {
+              "hook.js": 2066
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-common.js": [
+      5500,
+      {
+        "node_modules": {
+          "meteor": {
+            "ddp-common": {
+              "namespace.js": 18,
+              "heartbeat.js": 1693,
+              "utils.js": 1559,
+              "method_invocation.js": 589,
+              "random_stream.js": 692
+            }
+          }
+        }
+      }
+    ],
+    "packages/reload.js": [
+      3008,
+      {
+        "node_modules": {
+          "meteor": {
+            "reload": {
+              "reload.js": 2519
+            }
+          }
+        }
+      }
+    ],
+    "packages/socket-stream-client.js": [
+      62820,
+      {
+        "node_modules": {
+          "meteor": {
+            "socket-stream-client": {
+              "browser.js": 3539,
+              "common.js": 2902,
+              "sockjs-1.6.1-min-.js": 55048,
+              "urls.js": 801
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-client.js": [
+      28220,
+      {
+        "node_modules": {
+          "meteor": {
+            "ddp-client": {
+              "client": {
+                "client.js": 136,
+                "client_convenience.js": 876
+              },
+              "common": {
+                "MethodInvoker.js": 1381,
+                "livedata_connection.js": 23871,
+                "namespace.js": 997
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp.js": 78,
+    "packages/ddp-server.js": 30,
+    "packages/allow-deny.js": [
+      6127,
+      {
+        "node_modules": {
+          "meteor": {
+            "allow-deny": {
+              "allow-deny.js": 5457
+            }
+          }
+        }
+      }
+    ],
+    "packages/typescript.js": 30,
+    "packages/logging.js": [
+      4497,
+      {
+        "node_modules": {
+          "meteor": {
+            "logging": {
+              "logging.js": 3848,
+              "logging_browser.js": 53
+            }
+          }
+        }
+      }
+    ],
+    "packages/mongo.js": [
+      12688,
+      {
+        "node_modules": {
+          "meteor": {
+            "mongo": {
+              "local_collection_driver.js": 440,
+              "collection.js": 10910,
+              "mongo_utils.js": 377
+            }
+          }
+        }
+      }
+    ],
+    "packages/raix_eventemitter.js": 2212,
+    "packages/aldeed_collection2-core.js": 6992,
+    "packages/aldeed_schema-index.js": [
+      1663,
+      {
+        "node_modules": {
+          "meteor": {
+            "aldeed:schema-index": {
+              "lib": {
+                "indexing.js": 841
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/aldeed_schema-deny.js": 1085,
+    "packages/aldeed_collection2.js": 38,
+    "packages/cottz_publish-relations.js": [
+      1392,
+      {
+        "node_modules": {
+          "meteor": {
+            "cottz:publish-relations": {
+              "lib": {
+                "client": {
+                  "publish_relations.js": 720
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/dburles_collection-helpers.js": 557,
+    "packages/idmontie_migrations.js": 39,
+    "packages/easysearch_core.js": [
+      14929,
+      {
+        "node_modules": {
+          "meteor": {
+            "easysearch:core": {
+              "lib": {
+                "core": {
+                  "index.js": 1532,
+                  "engine.js": 821,
+                  "reactive-engine.js": 1555,
+                  "cursor.js": 985,
+                  "search-collection.js": 3970
+                },
+                "engines": {
+                  "mongo-db.js": 1477,
+                  "minimongo.js": 1122,
+                  "mongo-text-index.js": 1057
+                },
+                "globals.js": 348,
+                "main.js": 684
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/reactive-dict.js": [
+      4680,
+      {
+        "node_modules": {
+          "meteor": {
+            "reactive-dict": {
+              "migration.js": 821,
+              "reactive-dict.js": 3244
+            }
+          }
+        }
+      }
+    ],
+    "packages/spacebars.js": 3179,
+    "packages/templating-compiler.js": 39,
+    "packages/templating-runtime.js": [
+      10165,
+      {
+        "node_modules": {
+          "meteor": {
+            "templating-runtime": {
+              "templating.js": 2238,
+              "template.dynamic.js": 1401,
+              "dynamic.js": 569,
+              "node_modules": {
+                "lodash.has": {
+                  "package.json": 64,
+                  "index.js": 5016
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/templating.js": 103,
+    "packages/peerlibrary_assert.js": 4845,
+    "packages/peerlibrary_reactive-field.js": [
+      1418,
+      {
+        "node_modules": {
+          "meteor": {
+            "peerlibrary:reactive-field": {
+              "lib.js": 756
+            }
+          }
+        }
+      }
+    ],
+    "packages/peerlibrary_computed-field.js": [
+      1988,
+      {
+        "node_modules": {
+          "meteor": {
+            "peerlibrary:computed-field": {
+              "lib.js": 1319
+            }
+          }
+        }
+      }
+    ],
+    "packages/peerlibrary_base-component.js": 8695,
+    "packages/peerlibrary_data-lookup.js": [
+      1210,
+      {
+        "node_modules": {
+          "meteor": {
+            "peerlibrary:data-lookup": {
+              "lib.coffee": 524
+            }
+          }
+        }
+      }
+    ],
+    "packages/peerlibrary_blaze-components.js": 37579,
+    "packages/easysearch_components.js": [
+      20839,
+      {
+        "node_modules": {
+          "meteor": {
+            "easysearch:components": {
+              "lib": {
+                "base.js": 2115,
+                "single-index.js": 597,
+                "component-methods.js": 1956,
+                "core.js": 1732,
+                "input": {
+                  "template.input.js": 219,
+                  "input.js": 1184
+                },
+                "field-input": {
+                  "template.field-input.js": 234,
+                  "field-input.js": 823
+                },
+                "each": {
+                  "template.each.js": 469,
+                  "each.js": 576
+                },
+                "if-input-empty": {
+                  "template.if-input-empty.js": 629,
+                  "if-input-empty.js": 428
+                },
+                "if-no-results": {
+                  "template.if-no-results.js": 625,
+                  "if-no-results.js": 423
+                },
+                "if-searching": {
+                  "template.if-searching.js": 625,
+                  "if-searching.js": 422
+                },
+                "load-more": {
+                  "template.load-more.js": 407,
+                  "load-more.js": 927
+                },
+                "pagination": {
+                  "template.pagination.js": 1005,
+                  "pagination.js": 1580
+                },
+                "main.js": 697
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/easy_search.js": [
+      1886,
+      {
+        "node_modules": {
+          "meteor": {
+            "easy:search": {
+              "main.js": 1338
+            }
+          }
+        }
+      }
+    ],
+    "packages/mquandalle_collection-mutations.js": [
+      871,
+      {
+        "node_modules": {
+          "meteor": {
+            "mquandalle:collection-mutations": {
+              "mutations.js": 271
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-rate-limiter.js": 36,
+    "packages/localstorage.js": 837,
+    "packages/url.js": [
+      43087,
+      {
+        "node_modules": {
+          "meteor": {
+            "url": {
+              "modern.js": 110,
+              "legacy.js": 273,
+              "bc": {
+                "url_client.js": 172,
+                "url_common.js": 569
+              },
+              "node_modules": {
+                "core-js": {
+                  "proposals": {
+                    "url.js": 108
+                  },
+                  "modules": {
+                    "web.url.js": 11631,
+                    "es.string.iterator.js": 409,
+                    "web.url-search-params.js": 4431,
+                    "es.array.iterator.js": 618,
+                    "web.url.to-json.js": 159
+                  },
+                  "internals": {
+                    "string-multibyte.js": 386,
+                    "to-integer.js": 104,
+                    "require-object-coercible.js": 104,
+                    "internal-state.js": 968,
+                    "native-weak-map.js": 153,
+                    "global.js": 264,
+                    "inspect-source.js": 185,
+                    "shared-store.js": 131,
+                    "set-global.js": 163,
+                    "create-non-enumerable-property.js": 229,
+                    "descriptors.js": 144,
+                    "fails.js": 76,
+                    "object-define-property.js": 359,
+                    "ie8-dom-define.js": 231,
+                    "document-create-element.js": 173,
+                    "is-object.js": 96,
+                    "an-object.js": 140,
+                    "to-primitive.js": 354,
+                    "create-property-descriptor.js": 113,
+                    "has.js": 136,
+                    "to-object.js": 110,
+                    "shared-key.js": 133,
+                    "shared.js": 259,
+                    "is-pure.js": 31,
+                    "uid.js": 131,
+                    "hidden-keys.js": 31,
+                    "define-iterator.js": 1372,
+                    "export.js": 612,
+                    "object-get-own-property-descriptor.js": 428,
+                    "object-property-is-enumerable.js": 178,
+                    "to-indexed-object.js": 140,
+                    "indexed-object.js": 225,
+                    "classof-raw.js": 88,
+                    "redefine.js": 684,
+                    "copy-constructor-properties.js": 279,
+                    "own-keys.js": 284,
+                    "get-built-in.js": 222,
+                    "path.js": 61,
+                    "object-get-own-property-names.js": 187,
+                    "object-keys-internal.js": 306,
+                    "array-includes.js": 363,
+                    "to-length.js": 125,
+                    "to-absolute-index.js": 138,
+                    "enum-bug-keys.js": 138,
+                    "object-get-own-property-symbols.js": 49,
+                    "is-forced.js": 279,
+                    "create-iterator-constructor.js": 370,
+                    "iterators-core.js": 531,
+                    "object-get-prototype-of.js": 372,
+                    "correct-prototype-getter.js": 169,
+                    "well-known-symbol.js": 359,
+                    "native-symbol.js": 232,
+                    "engine-v8-version.js": 266,
+                    "engine-user-agent.js": 96,
+                    "use-symbol-as-uid.js": 116,
+                    "object-create.js": 954,
+                    "object-define-properties.js": 284,
+                    "object-keys.js": 149,
+                    "html.js": 97,
+                    "set-to-string-tag.js": 234,
+                    "iterators.js": 31,
+                    "object-set-prototype-of.js": 368,
+                    "a-possible-prototype.js": 161,
+                    "native-url.js": 615,
+                    "an-instance.js": 131,
+                    "object-assign.js": 823,
+                    "array-from.js": 718,
+                    "function-bind-context.js": 358,
+                    "a-function.js": 122,
+                    "call-with-safe-iteration-closing.js": 173,
+                    "iterator-close.js": 130,
+                    "is-array-iterator-method.js": 190,
+                    "create-property.js": 226,
+                    "get-iterator-method.js": 204,
+                    "classof.js": 435,
+                    "to-string-tag-support.js": 124,
+                    "string-punycode-to-ascii.js": 1258,
+                    "add-to-unscopables.js": 261,
+                    "redefine-all.js": 116,
+                    "get-iterator.js": 216
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/accounts-base.js": [
+      16259,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-base": {
+              "client_main.js": 315,
+              "accounts_client.js": 9469,
+              "accounts_common.js": 5666
+            }
+          }
+        }
+      }
+    ],
+    "packages/sha.js": 2495,
+    "packages/accounts-password.js": [
+      2983,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-password": {
+              "password_client.js": 2353
+            }
+          }
+        }
+      }
+    ],
+    "packages/useraccounts_core.js": [
+      48064,
+      {
+        "node_modules": {
+          "meteor": {
+            "useraccounts:core": {
+              "lib": {
+                "utils.js": 230,
+                "field.js": 3375,
+                "core.js": 11259,
+                "client.js": 6575,
+                "templates_helpers": {
+                  "at_error.js": 371,
+                  "at_form.js": 1627,
+                  "at_input.js": 1922,
+                  "at_nav_button.js": 269,
+                  "at_oauth.js": 92,
+                  "at_pwd_form.js": 4298,
+                  "at_pwd_form_btn.js": 305,
+                  "at_pwd_link.js": 438,
+                  "at_reCaptcha.js": 447,
+                  "at_resend_verification_email_link.js": 596,
+                  "at_result.js": 121,
+                  "at_sep.js": 91,
+                  "at_signin_link.js": 441,
+                  "at_signup_link.js": 441,
+                  "at_social.js": 1846,
+                  "at_terms_link.js": 591,
+                  "at_title.js": 145,
+                  "at_message.js": 124,
+                  "template.ensure_signed_in.js": 737,
+                  "ensure_signed_in.js": 218
+                },
+                "methods.js": 280,
+                "T9n.js": 157
+              },
+              "node_modules": {
+                "meteor-accounts-t9n": {
+                  "build": {
+                    "en.js": 4733,
+                    "t9n.js": 2779
+                  },
+                  "package.json": 93
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/kadira_flow-router.js": [
+      25977,
+      {
+        "node_modules": {
+          "meteor": {
+            "kadira:flow-router": {
+              "client": {
+                "modules.js": 36,
+                "triggers.js": 1021,
+                "router.js": 6778,
+                "group.js": 1064,
+                "route.js": 1809,
+                "_init.js": 98
+              },
+              "lib": {
+                "router.js": 167
+              },
+              "node_modules": {
+                "page": {
+                  "package.json": 58,
+                  "index.js": 4648
+                },
+                "path-to-regexp": {
+                  "package.json": 68,
+                  "index.js": 2767
+                },
+                "isarray": {
+                  "package.json": 77,
+                  "index.js": 114
+                },
+                "qs": {
+                  "package.json": 76,
+                  "lib": {
+                    "index.js": 88,
+                    "stringify.js": 1609,
+                    "utils.js": 1840,
+                    "parse.js": 2423
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/kadira_blaze-layout.js": 2064,
+    "packages/useraccounts_flow-routing.js": [
+      8338,
+      {
+        "node_modules": {
+          "meteor": {
+            "useraccounts:flow-routing": {
+              "lib": {
+                "core.js": 4476,
+                "client": {
+                  "client.js": 2675,
+                  "templates_helpers": {
+                    "at_input.js": 194
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/useraccounts_unstyled.js": 16430,
+    "packages/simple_rest-accounts-password.js": 49,
+    "packages/yasaricli_slugify.js": 4084,
+    "packages/wekan-ldap.js": [
+      1104,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-ldap": {
+              "client": {
+                "loginHelper.js": 348
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/wekan-accounts-cas.js": 1807,
+    "packages/http.js": [
+      3696,
+      {
+        "node_modules": {
+          "meteor": {
+            "http": {
+              "httpcall_client.js": 2173,
+              "httpcall_common.js": 932
+            }
+          }
+        }
+      }
+    ],
+    "packages/wekan-accounts-sandstorm.js": 2069,
+    "packages/wekan-accounts-lockout.js": [
+      12511,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-accounts-lockout": {
+              "accounts-lockout.js": 191,
+              "src": {
+                "accountsLockout.js": 570,
+                "accountsLockoutCollection.js": 141,
+                "knownUser.js": 5136,
+                "unknownUser.js": 5797
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/oauth.js": [
+      4239,
+      {
+        "node_modules": {
+          "meteor": {
+            "oauth": {
+              "oauth_client.js": 2069,
+              "oauth_browser.js": 789,
+              "oauth_common.js": 612
+            }
+          }
+        }
+      }
+    ],
+    "packages/service-configuration.js": [
+      1136,
+      {
+        "node_modules": {
+          "meteor": {
+            "service-configuration": {
+              "service_configuration_common.js": 490
+            }
+          }
+        }
+      }
+    ],
+    "packages/oauth2.js": 26,
+    "packages/wekan-oidc.js": [
+      2877,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-oidc": {
+              "template.oidc_configure.js": 435,
+              "oidc_configure.js": 529,
+              "oidc_client.js": 942
+            }
+          }
+        }
+      }
+    ],
+    "packages/accounts-oauth.js": [
+      3138,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-oauth": {
+              "oauth_common.js": 1498,
+              "oauth_client.js": 996
+            }
+          }
+        }
+      }
+    ],
+    "packages/wekan-accounts-oidc.js": 505,
+    "packages/session.js": [
+      710,
+      {
+        "node_modules": {
+          "meteor": {
+            "session": {
+              "session.js": 153
+            }
+          }
+        }
+      }
+    ],
+    "packages/zimme_active-route.js": 3143,
+    "packages/arillo_flow-router-helpers.js": 2147,
+    "packages/audit-argument-checks.js": 41,
+    "packages/kadira_dochead.js": [
+      3264,
+      {
+        "node_modules": {
+          "meteor": {
+            "kadira:dochead": {
+              "main.js": 33,
+              "lib": {
+                "both.js": 1448,
+                "flow_router.js": 165
+              },
+              "node_modules": {
+                "load-script": {
+                  "package.json": 65,
+                  "index.js": 787
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/mquandalle_autofocus.js": 656,
+    "packages/ongoworks_speakingurl.js": 11600,
+    "packages/ui.js": 137,
+    "packages/deps.js": 111,
+    "packages/raix_handlebar-helpers.js": 3131,
+    "packages/wekan-bootstrap-datepicker.js": 78173,
+    "packages/ostrio_cstorage.js": [
+      6022,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:cstorage": {
+              "client-storage.js": 1575,
+              "browser-storage.js": 1313,
+              "cookies-storage.js": 1773,
+              "helpers.js": 234,
+              "js-storage.js": 531
+            }
+          }
+        }
+      }
+    ],
+    "packages/ostrio_i18n.js": [
+      6405,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:i18n": {
+              "i18n.js": 5834
+            }
+          }
+        }
+      }
+    ],
+    "packages/mousetrap_mousetrap.js": 4307,
+    "packages/mquandalle_jquery-textcomplete.js": 17257,
+    "packages/mquandalle_mousetrap-bindglobal.js": 483,
+    "packages/templates_tabs.js": 5495,
+    "packages/meteor-autosize.js": 3616,
+    "packages/shell-server.js": 32,
+    "packages/email.js": 25,
+    "packages/msavin_usercache.js": 36,
+    "packages/meteorhacks_subs-manager.js": 3149,
+    "packages/meteorhacks_aggregate.js": 161,
+    "packages/wekan-markdown.js": [
+      1942,
+      {
+        "node_modules": {
+          "meteor": {
+            "wekan-markdown": {
+              "src": {
+                "template-integration.js": 1230
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/konecty_mongo-counter.js": 41,
+    "packages/percolate_synced-cron.js": 41,
+    "packages/ostrio_cookies.js": [
+      9669,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:cookies": {
+              "cookies.js": 9143
+            }
+          }
+        }
+      }
+    ],
+    "packages/ostrio_files.js": [
+      37951,
+      {
+        "node_modules": {
+          "meteor": {
+            "ostrio:files": {
+              "client.js": 5982,
+              "core.js": 3802,
+              "cursor.js": 4162,
+              "lib.js": 3485,
+              "upload.js": 16790,
+              "node_modules": {
+                "eventemitter3": {
+                  "package.json": 83,
+                  "index.js": 2796
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/pascoual_pdfkit.js": 72,
+    "packages/matb33_collection-hooks.js": [
+      14053,
+      {
+        "node_modules": {
+          "meteor": {
+            "matb33:collection-hooks": {
+              "client.js": 416,
+              "advices.js": 177,
+              "collection-hooks.js": 4666,
+              "find.js": 467,
+              "findone.js": 449,
+              "insert.js": 1225,
+              "remove.js": 1145,
+              "update.js": 2462,
+              "upsert.js": 1918,
+              "users-compat.js": 285
+            }
+          }
+        }
+      }
+    ],
+    "packages/simple_json-routes.js": 38,
+    "packages/communitypackages_picker.js": 44,
+    "packages/minifier-css.js": 66,
+    "packages/momentjs_moment.js": 60808,
+    "packages/wekan-fullcalendar.js": 417515,
+    "packages/wekan-fontawesome.js": 37,
+    "packages/webapp.js": [
+      881,
+      {
+        "node_modules": {
+          "meteor": {
+            "webapp": {
+              "webapp_client.js": 378
+            }
+          }
+        }
+      }
+    ],
+    "packages/hot-code-push.js": 33,
+    "packages/autoupdate.js": [
+      4117,
+      {
+        "node_modules": {
+          "meteor": {
+            "autoupdate": {
+              "autoupdate_client.js": 1979,
+              "client_versions.js": 1490
+            }
+          }
+        }
+      }
+    ],
+    "app/global-imports.js": [
+      2584,
+      {}
+    ],
+    "app/app.js": [
+      1370570,
+      {
+        "client": {
+          "components": {
+            "rules": {
+              "actions": {
+                "template.boardActions.js": 7155,
+                "template.cardActions.js": 5998,
+                "template.checklistActions.js": 4126,
+                "template.mailActions.js": 972,
+                "boardActions.js": 3437,
+                "cardActions.js": 4003,
+                "checklistActions.js": 2472,
+                "mailActions.js": 564
+              },
+              "triggers": {
+                "template.boardTriggers.js": 7310,
+                "template.cardTriggers.js": 7553,
+                "template.checklistTriggers.js": 8411,
+                "boardTriggers.js": 2182,
+                "cardTriggers.js": 2242,
+                "checklistTriggers.js": 2555
+              },
+              "template.ruleDetails.js": 1267,
+              "template.rulesActions.js": 2859,
+              "template.rulesList.js": 2566,
+              "template.rulesMain.js": 1374,
+              "template.rulesTriggers.js": 1681,
+              "ruleDetails.js": 599,
+              "rulesActions.js": 1603,
+              "rulesList.js": 312,
+              "rulesMain.js": 1913,
+              "rulesTriggers.js": 1422
+            },
+            "activities": {
+              "template.activities.js": 21886,
+              "template.comments.js": 6622,
+              "activities.js": 5707,
+              "comments.js": 1806
+            },
+            "boards": {
+              "template.boardArchive.js": 1717,
+              "template.boardBody.js": 4775,
+              "template.boardHeader.js": 23762,
+              "template.boardsList.js": 12199,
+              "template.miniboard.js": 507,
+              "boardArchive.js": 943,
+              "boardBody.js": 8152,
+              "boardHeader.js": 5984,
+              "boardsList.js": 5692
+            },
+            "cards": {
+              "template.attachments.js": 12509,
+              "template.cardCustomFields.js": 12316,
+              "template.cardDate.js": 2737,
+              "template.cardDescription.js": 777,
+              "template.cardDetails.js": 84918,
+              "template.cardTime.js": 2569,
+              "template.checklists.js": 21263,
+              "template.labels.js": 3905,
+              "template.minicard.js": 20572,
+              "template.resultCard.js": 2923,
+              "template.subtasks.js": 9661,
+              "attachments.js": 7895,
+              "cardCustomFields.js": 2873,
+              "cardDate.js": 6158,
+              "cardDescription.js": 569,
+              "cardDetails.js": 21556,
+              "cardTime.js": 1502,
+              "checklists.js": 7102,
+              "labels.js": 2887,
+              "minicard.js": 3844,
+              "resultCard.js": 545,
+              "subtasks.js": 2248
+            },
+            "forms": {
+              "template.datepicker.js": 1631,
+              "template.inlinedform.js": 707
+            },
+            "import": {
+              "template.import.js": 6196,
+              "csvMembersMapper.js": 612,
+              "import.js": 4876,
+              "trelloMembersMapper.js": 272,
+              "wekanMembersMapper.js": 450
+            },
+            "lists": {
+              "template.list.js": 1228,
+              "template.listBody.js": 13178,
+              "template.listHeader.js": 19269,
+              "template.minilist.js": 504,
+              "list.js": 3430,
+              "listBody.js": 13631,
+              "listHeader.js": 7021
+            },
+            "main": {
+              "template.accessibility.js": 699,
+              "template.brokenCards.js": 1379,
+              "template.dueCards.js": 4208,
+              "template.editor.js": 1401,
+              "template.globalSearch.js": 7646,
+              "template.header.js": 9559,
+              "template.keyboardShortcuts.js": 1417,
+              "template.layouts.js": 7594,
+              "template.myCards.js": 9585,
+              "template.popup.tpl.js": 1890,
+              "template.spinner.js": 643,
+              "template.spinner_bounce.js": 615,
+              "template.spinner_cube.js": 575,
+              "template.spinner_cube_grid.js": 938,
+              "template.spinner_dot.js": 537,
+              "template.spinner_double_bounce.js": 630,
+              "template.spinner_rotateplane.js": 582,
+              "template.spinner_scaleout.js": 555,
+              "template.spinner_wave.js": 661,
+              "accessibility.js": 321,
+              "brokenCards.js": 579,
+              "dueCards.js": 1976,
+              "editor.js": 3020,
+              "globalSearch.js": 8028,
+              "header.js": 1855,
+              "layouts.js": 4854,
+              "myCards.js": 2434,
+              "popup.js": 505,
+              "spinner.js": 161
+            },
+            "notifications": {
+              "template.notification.js": 1022,
+              "template.notificationIcon.js": 4967,
+              "template.notifications.js": 860,
+              "template.notificationsDrawer.js": 2349,
+              "notification.js": 661,
+              "notifications.js": 617,
+              "notificationsDrawer.js": 1531
+            },
+            "settings": {
+              "template.adminReports.js": 9856,
+              "template.attachments.js": 7563,
+              "template.connectionMethod.js": 957,
+              "template.informationBody.js": 10617,
+              "template.invitationCode.js": 501,
+              "template.peopleBody.js": 51391,
+              "template.settingBody.js": 28712,
+              "template.settingHeader.js": 2392,
+              "template.translationBody.js": 7454,
+              "adminReports.js": 3367,
+              "attachments.js": 3111,
+              "connectionMethod.js": 789,
+              "informationBody.js": 745,
+              "invitationCode.js": 293,
+              "peopleBody.js": 19730,
+              "settingBody.js": 10124,
+              "translationBody.js": 4026
+            },
+            "sidebar": {
+              "template.sidebar.js": 60010,
+              "template.sidebarArchives.js": 7004,
+              "template.sidebarCustomFields.js": 8996,
+              "template.sidebarFilters.js": 18843,
+              "template.sidebarSearches.js": 1446,
+              "sidebar.js": 38349,
+              "sidebarArchives.js": 2728,
+              "sidebarCustomFields.js": 5428,
+              "sidebarFilters.js": 4637,
+              "sidebarSearches.js": 689
+            },
+            "swimlanes": {
+              "template.miniswimlane.js": 516,
+              "template.swimlaneHeader.js": 10238,
+              "template.swimlanes.js": 9310,
+              "swimlaneHeader.js": 4069,
+              "swimlanes.js": 5665
+            },
+            "users": {
+              "template.userAvatar.js": 12695,
+              "template.userHeader.js": 14314,
+              "userAvatar.js": 4509,
+              "userHeader.js": 6702
+            },
+            "mixins": {
+              "infiniteScrolling.js": 459
+            }
+          },
+          "lib": {
+            "accessibility.js": 466,
+            "cardSearch.js": 4580,
+            "cssEvents.js": 689,
+            "customFields.js": 850,
+            "datepicker.js": 2735,
+            "dialogWithBoardSwimlaneList.js": 3352,
+            "dialogWithBoardSwimlaneListCard.js": 1519,
+            "dropImage.js": 835,
+            "escapeActions.js": 2086,
+            "exportHTML.js": 6838,
+            "filter.js": 10055,
+            "i18n.js": 1074,
+            "inlinedform.js": 1055,
+            "jquery-ui.js": 378,
+            "keyboard.js": 5069,
+            "mixins.js": 23,
+            "modal.js": 1354,
+            "multiSelection.js": 2563,
+            "pasteImage.js": 788,
+            "popup.js": 3136,
+            "spinner.js": 741,
+            "textComplete.js": 671,
+            "unsavedEdits.js": 930,
+            "utils.js": 8476
+          },
+          "config": {
+            "blazeHelpers.js": 1596,
+            "gecko-fix.js": 119,
+            "reactiveTabs.js": 74
+          },
+          "00-startup.js": 147
+        },
+        "models": {
+          "lib": {
+            "fsHooks": {
+              "createOnAfterUpload.js": 826
+            },
+            "grid": {
+              "createBucket.js": 260,
+              "createObjectId.js": 206
+            },
+            "attachmentStoreStrategy.js": 1952,
+            "fileStoreStrategy.js": 10472,
+            "httpStream.js": 624
+          },
+          "accessibilitySettings.js": 925,
+          "accountSettings.js": 1417,
+          "actions.js": 765,
+          "activities.js": 5328,
+          "announcements.js": 891,
+          "attachments.js": 3783,
+          "avatars.js": 2938,
+          "boards.js": 27448,
+          "cardCommentReactions.js": 951,
+          "cardComments.js": 4688,
+          "cards.js": 46072,
+          "checklistItems.js": 4789,
+          "checklists.js": 5449,
+          "counters.js": 55,
+          "csvCreator.js": 6152,
+          "customFields.js": 7289,
+          "export.js": 2390,
+          "exportExcel.js": 968,
+          "exportPDF.js": 992,
+          "exporter.js": 6304,
+          "fileValidation.js": 622,
+          "impersonatedUsers.js": 603,
+          "import.js": 865,
+          "integrations.js": 4382,
+          "invitationCodes.js": 926,
+          "lists.js": 8287,
+          "org.js": 3583,
+          "orgUser.js": 770,
+          "rules.js": 1333,
+          "runOnServer.js": 110,
+          "settings.js": 7823,
+          "swimlanes.js": 7091,
+          "tableVisibilityModeSettings.js": 1141,
+          "team.js": 3175,
+          "translation.js": 1426,
+          "trelloCreator.js": 10057,
+          "triggers.js": 1173,
+          "unsavedEdits.js": 983,
+          "users.js": 30220,
+          "usersessiondata.js": 2509,
+          "watchable.js": 1073,
+          "wekanCreator.js": 11896,
+          "wekanmapper.js": 445
+        },
+        "imports": {
+          "i18n": {
+            "accounts.js": 2476,
+            "blaze.js": 481,
+            "index.js": 471,
+            "languages.js": 15920,
+            "moment.js": 287,
+            "tap.js": 2768,
+            "data": {
+              "af.i18n.json": 2,
+              "af_ZA.i18n.json": 2,
+              "en_AU.i18n.json": 2,
+              "en_ZA.i18n.json": 2,
+              "ar-DZ.i18n.json": 2,
+              "ar-EG.i18n.json": 2,
+              "ar.i18n.json": 2,
+              "ary.i18n.json": 2,
+              "az-AZ.i18n.json": 2,
+              "az-LA.i18n.json": 2,
+              "az.i18n.json": 2,
+              "bg.i18n.json": 2,
+              "br.i18n.json": 2,
+              "ca.i18n.json": 2,
+              "ca_ES.i18n.json": 2,
+              "cmn.i18n.json": 2,
+              "cs.i18n.json": 2,
+              "cs-CZ.i18n.json": 2,
+              "cy-GB.i18n.json": 2,
+              "cy.i18n.json": 2,
+              "da.i18n.json": 2,
+              "de-AT.i18n.json": 2,
+              "de-CH.i18n.json": 2,
+              "de_DE.i18n.json": 2,
+              "de.i18n.json": 2,
+              "el-GR.i18n.json": 2,
+              "el.i18n.json": 2,
+              "en-BR.i18n.json": 2,
+              "en-DE.i18n.json": 2,
+              "en-GB.i18n.json": 2,
+              "en-IT.i18n.json": 2,
+              "en-MY.i18n.json": 2,
+              "en-YS.i18n.json": 2,
+              "en.i18n.json": 2,
+              "eo.i18n.json": 2,
+              "ast-ES.i18n.json": 2,
+              "es-AR.i18n.json": 2,
+              "es-CL.i18n.json": 2,
+              "es-LA.i18n.json": 2,
+              "es-MX.i18n.json": 2,
+              "es-PE.i18n.json": 2,
+              "es-PY.i18n.json": 2,
+              "es.i18n.json": 2,
+              "et-EE.i18n.json": 2,
+              "eu.i18n.json": 2,
+              "fa-IR.i18n.json": 2,
+              "fa.i18n.json": 2,
+              "fi.i18n.json": 2,
+              "fr-CH.i18n.json": 2,
+              "fr.i18n.json": 2,
+              "fy-NL.i18n.json": 2,
+              "fy.i18n.json": 2,
+              "gl-ES.i18n.json": 2,
+              "gl.i18n.json": 2,
+              "gu-IN.i18n.json": 2,
+              "he-IL.i18n.json": 2,
+              "he.i18n.json": 2,
+              "hi-IN.i18n.json": 2,
+              "hi.i18n.json": 2,
+              "hr.i18n.json": 2,
+              "hu.i18n.json": 2,
+              "hy.i18n.json": 2,
+              "id.i18n.json": 2,
+              "ig.i18n.json": 2,
+              "it.i18n.json": 2,
+              "ja.i18n.json": 2,
+              "ja-HI.i18n.json": 2,
+              "ka.i18n.json": 2,
+              "km.i18n.json": 2,
+              "ko-KR.i18n.json": 2,
+              "ko.i18n.json": 2,
+              "lt.i18n.json": 2,
+              "lv.i18n.json": 2,
+              "mk.i18n.json": 2,
+              "mn.i18n.json": 2,
+              "ms.i18n.json": 2,
+              "ms-MY.i18n.json": 2,
+              "nb.i18n.json": 2,
+              "nl-NL.i18n.json": 2,
+              "nl.i18n.json": 2,
+              "oc.i18n.json": 2,
+              "or_IN.i18n.json": 2,
+              "pa.i18n.json": 2,
+              "pl-PL.i18n.json": 2,
+              "pl.i18n.json": 2,
+              "pt-BR.i18n.json": 2,
+              "pt.i18n.json": 2,
+              "ro.i18n.json": 2,
+              "ro-RO.i18n.json": 2,
+              "ru.i18n.json": 2,
+              "sk.i18n.json": 2,
+              "sl.i18n.json": 2,
+              "sr.i18n.json": 2,
+              "sv.i18n.json": 2,
+              "sw.i18n.json": 2,
+              "ta.i18n.json": 2,
+              "te-IN.i18n.json": 2,
+              "th.i18n.json": 2,
+              "tlh.i18n.json": 2,
+              "tr.i18n.json": 2,
+              "ug.i18n.json": 2,
+              "uk.i18n.json": 2,
+              "uk-UA.i18n.json": 2,
+              "uz-AR.i18n.json": 2,
+              "uz-LA.i18n.json": 2,
+              "uz-UZ.i18n.json": 2,
+              "uz.i18n.json": 2,
+              "ve-CC.i18n.json": 2,
+              "ve-PP.i18n.json": 2,
+              "ve.i18n.json": 2,
+              "vi-VN.i18n.json": 2,
+              "vi.i18n.json": 2,
+              "vl-SS.i18n.json": 2,
+              "vo.i18n.json": 2,
+              "wa-RR.i18n.json": 2,
+              "wa.i18n.json": 2,
+              "wo.i18n.json": 2,
+              "xh.i18n.json": 2,
+              "yi.i18n.json": 2,
+              "yo.i18n.json": 2,
+              "zgh.i18n.json": 2,
+              "yue_CN.i18n.json": 2,
+              "zh-CN.i18n.json": 2,
+              "zh-GB.i18n.json": 2,
+              "zh-Hans.i18n.json": 2,
+              "zh-Hant.i18n.json": 2,
+              "zh-HK.i18n.json": 2,
+              "zh-TW.i18n.json": 2,
+              "zu-ZA.i18n.json": 2,
+              "zu.i18n.json": 2
+            }
+          },
+          "reactiveCache.js": 48332
+        },
+        "config": {
+          "accounts.js": 2009,
+          "const.js": 1193,
+          "models.js": 101,
+          "query-classes.js": 9948,
+          "router.js": 8319,
+          "search-const.js": 2341
+        },
+        "sandstorm.js": 6191
+      }
+    ],
+    "packages/mdg_validation-error.js": [
+      1212,
+      {
+        "node_modules": {
+          "meteor": {
+            "mdg:validation-error": {
+              "validation-error.js": 610
+            }
+          }
+        }
+      }
+    ]
+  }
+}
